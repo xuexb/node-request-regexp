@@ -1,4 +1,4 @@
-var request = require('./request-regexp');
+var request = require('./lib/request-regexp');
 
 request({
     url: 'http://www.qq.com/',

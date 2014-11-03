@@ -1,8 +1,8 @@
 {
   "name": "request-regexp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "一个正则请求过滤器",
-  "main": "request-regexp.js",
+  "main": "./lib/request-regexp.js",
   "dependencies": {
     "iconv-lite": "^0.4.4",
     "request": "^2.47.0"
