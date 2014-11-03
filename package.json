@@ -1,0 +1,32 @@
+{
+  "name": "request-regexp",
+  "version": "1.0.0",
+  "description": "一个正则请求过滤器",
+  "main": "request-regexp.js",
+  "dependencies": {
+    "iconv-lite": "^0.4.4",
+    "request": "^2.47.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node ./test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:xuexb/node-request-regexp.git"
+  },
+  "keywords": [
+    "request",
+    "regexp"
+  ],
+  "author": "xieliang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xuexb/node-request-regexp/issues"
+  },
+  "homepage": "https://github.com/xuexb/node-request-regexp",
+  "devDependencies": {
+    "iconv-lite": "^0.4.4",
+    "request": "^2.0.0"
+  }
+}
