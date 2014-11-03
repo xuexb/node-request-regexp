@@ -1,6 +1,6 @@
 {
   "name": "request-regexp",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "一个正则请求过滤器",
   "main": "./lib/request-regexp.js",
   "dependencies": {
