@@ -1,9 +1,6 @@
-node-request-regexp
-===================
+# node-request-regexp
 
-> 一个正则请求过滤器
-> 
-> 扩展于 `request`
+> 基于[request](https://www.npmjs.com/package/request)的一个正则请求过滤器
 
 
 ## install
@@ -28,13 +25,24 @@ request({
 }, function(error, response, body) {
     if (error) {
         console(error.message);
-    } else {
-        console.log(body);//body为解析正则后的数组
+    }
+    else {
+        // body = {
+        //     title: [
+        //         匹配数组1,
+        //         匹配数组2,
+        //     ]
+        // }
+        console.log(body);
     }
 });
 ```
 
 ## change log
+
+### 1.0.3
+
+* 优化文档
 
 ### 1.0.2
 
